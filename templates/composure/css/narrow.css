@@ -1,0 +1,75 @@
+@media all and (max-width: 700px) {
+
+
+
+/* Basic page layout rules */
+#page {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+
+
+/* Header elements rules */
+#header .title {
+	margin: 0 0 1.4rem 0;
+	text-align: center;
+}
+
+/* Footer elements rules */
+#footer nav.simple {
+	text-align: center;
+}
+#footer .copyright {
+	text-align: center;
+}
+
+
+
+/******************************* Content Styles *******************************/
+
+
+
+article p {
+	font-size: 1.6rem;
+}
+
+/* Home welcome message */
+.welcome {
+	margin: 3em auto 6em;
+}
+
+/* Project list */
+.project-list li {
+	margin: 16px auto;
+	width: 85.714285%;
+}
+
+
+
+/****************************** Navigation Styles *****************************/
+
+
+
+/* Main nav rules */
+nav.main ul {
+	overflow: hidden;
+}
+nav.main li {
+	display: block;
+	float: left;
+	margin-bottom: 0.75em;
+	width: 50%;
+}
+
+
+
+/******************************** Special Cases *******************************/
+
+.front-and-center.error h1 {
+	font-size: 3em;
+}
+
+
+
+}

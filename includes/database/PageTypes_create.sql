@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `PageTypes` (
+    ID BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(128) NOT NULL,
+    ShortDescription TEXT,
+    LongDescription TEXT
+) ENGINE=InnoDB;

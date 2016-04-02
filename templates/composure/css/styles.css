@@ -1,0 +1,447 @@
+/* Override defaults for html and body tags */
+html, body {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* Define the typeface for the page */
+html {
+	font-size: 62.5%
+}
+body {
+	font-size: 1.4rem;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	color: #555555;
+	background-color: #FAFAFA;
+}
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.25em;
+}
+
+/* Some link customizations */
+a, a:visited {
+	color: #555555;
+	text-decoration: underline;
+}
+a:hover, a:focus, a:active {
+	color: #000000;
+}
+a:hover, a:active {
+	text-decoration: none;
+}
+
+
+
+/* Basic page layout rules */
+#page, #header, #content, #footer {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#page {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+#header {
+	padding: 10px 0 0 0;
+	min-height: 75px;
+}
+#content {
+	padding: 20px;
+	min-height: 300px;
+}
+#footer {
+	margin: 20px auto 0 auto;
+	padding: 20px 0 50px 0;
+	width: 90%;
+	min-height: 50px;
+}
+
+
+
+/* Basic page design rules */
+#page {
+
+}
+#header {
+	box-shadow: 0px 30px 20px -30px rgba(0, 0, 0, 0.5);
+}
+#content {
+	overflow: hidden;
+}
+#footer {
+	overflow: hidden;
+	font-size: 1.4rem;
+	border-top: 1px solid #AAAAAA;
+}
+hr {
+	display: block;
+	margin: 1em auto;
+	width: 85%;
+	height: 1px;
+
+	border: none;
+	background: -webkit-linear-gradient(left,     rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Safari 5.1-6*/
+	background:    -moz-linear-gradient(right,    rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Fx 3.6-15*/
+	background:      -o-linear-gradient(right,    rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Opera 11.1-12*/
+	background:         linear-gradient(to right, rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Standard*/
+}
+#content > hr {
+	margin: 2em auto;
+}
+
+
+
+/* Header elements rules */
+#header .title {
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	font-size: 2.4em;
+	font-weight: 600;
+	font-style: italic;
+	color: #333333;
+}
+#header .title a {
+	text-decoration: none;
+}
+#header .profile-picture {
+	height: 64px;
+	float: left;
+	margin: 0 20px;
+	border-radius: 100%;
+	box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer elements rules */
+#footer nav.social {
+	font-size: 1.5em;
+}
+
+
+
+/******************************* Content Styles *******************************/
+
+
+
+/* Article styles */
+article p {
+	font-size: 1.4rem;
+}
+article figure {
+	display: block;
+	margin: 1em 0;
+}
+article figure.left {
+	float: left;
+	margin: 0.5em 0.5em 0.5em 0;
+}
+article figure.right {
+	float: right;
+	margin: 0.5em 0 0.5em 0.5em;
+}
+article img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.5);
+}
+article footer {
+	margin-top: 2em;
+	text-align: right;
+	font-size: 0.85em;
+}
+
+/* Document styles */
+.document {
+	display: block;
+	margin: 1em auto;
+	padding: 2em;
+	background-color: white;
+	border: 1px solid #CCC;
+	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.4);
+	max-width: 50em;
+	text-align: justify;
+}
+.document h1 {
+	text-transform: uppercase;
+}
+.document li {
+	line-height: 1.75em;
+}
+
+/* Info boxes */
+.info {
+	display: block;
+	margin: 0 auto 20px;
+	padding: 0;
+}
+.info p {
+	text-align: justify;
+}
+
+/* Front-and-center box */
+.front-and-center {
+	display: block;
+	margin: 10em auto;
+	width: 90%;
+	max-width: 1000px;
+
+	text-align: center;
+}
+.front-and-center h1 {
+	margin: 0;
+
+	font-size: 6em;
+	font-weight: 700;
+	text-align: center;
+}
+.front-and-center p {
+	text-align: center;
+}
+
+/* Home welcome message */
+.welcome header {
+	font-family: "Tangerine", cursive;
+}
+.welcome p {
+	font-size: 1.4em;
+}
+/* Fanceh animation stuff */
+.welcome header,
+.welcome section {
+	position: relative;
+
+	-webkit-animation: float-in 1s ease-out 1s;
+	animation: float-in 1s ease-out 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.welcome section {
+	-webkit-animation-delay: 1500ms;
+	animation-delay: 1500ms;
+}
+
+/* Project list */
+.project-list {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.project-list li {
+	display: block;
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.project-list li .thumbnail {
+	display: block;
+	width: 100%;
+}
+.project-list li h2 {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 4px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 26px;
+	font-weight: bold;
+	color: #EFEFEF;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+/* Miscellaneous */
+.timestamp {
+	font-weight: bold;
+}
+
+
+
+/********************************* Animations *********************************/
+
+
+
+/* float-in animation */
+@-webkit-keyframes float-in {
+	from {
+		top: 20px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}
+@keyframes float-in {
+	from {
+		top: 20px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+
+
+/****************************** Navigation Styles *****************************/
+
+
+
+/* Main nav rules */
+nav.main {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+nav.main ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav.main li {
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+}
+nav.main li,
+nav.main a {
+	/* Combine these two for non-link menu items */
+
+	font-size: 1.6rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: #555555;
+}
+nav.main a {
+	transition: color 300ms ease;
+}
+nav.main a:hover,
+nav.main a:active,
+nav.main a:focus {
+	color: #000000;
+}
+
+
+
+/* Social nav rules */
+nav.social {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+nav.social ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav.social li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+nav.social a {
+	color: inherit;
+	text-decoration: none;
+}
+nav.social a:hover,
+nav.social a:active,
+nav.social a:focus {
+	color: #000000;
+}
+nav.social .icon {
+	display: inline-block;
+	margin-right: 0.4em;
+	height: 1em;
+	width: 1.2em;
+	text-align: center;
+}
+
+
+
+/* Simple nav rules */
+nav.simple {
+	display: block;
+	margin: 0.5em 0;
+	padding: 0;
+	font-size: 1em;
+}
+nav.simple ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav.simple li {
+	display: inline;
+}
+nav.simple a {
+	color: inherit;
+	text-decoration: underline;
+}
+nav.simple a:hover,
+nav.simple a:active {
+	text-decoration: none;
+}
+nav.simple li:before {
+	content: "|";
+	display: inline-block;
+	margin: 0 0.5em;
+}
+nav.simple li:first-of-type:before {
+	display: none;
+}
+
+
+/******************************** Special Cases *******************************/
+
+
+#welcome-image {
+  background-color: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+.front-and-center.error h1 {
+	font-size: 4em;
+}
+
+a.download.independent {
+	display: block;
+	background: rgb(118,60,255);
+	padding: 6px 12px 9px;
+	margin: 1.5em auto;
+	width: 10em;
+	border-radius: 4px;
+	box-shadow: 0 -2px 0 1px rgba(0,0,0,0.5) inset, 0 1px 0 0 rgba(0,0,0,0.25) inset;
+	font-weight: bold;
+	color: #F6F6F6;
+	text-decoration: none;
+	text-shadow: 0 1px 0px rgba(0,0,0,0.5);
+	text-align: center;
+}
+a.download.independent:hover {
+	background: rgb(168,140,255);
+}
+a.download.independent:active {
+	padding: 9px 12px 6px;
+	box-shadow: 0 2px 0 1px rgba(0,0,0,0.5) inset, 0 -1px 0 0 rgba(0,0,0,0.25) inset;
+}

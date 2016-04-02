@@ -1,0 +1,98 @@
+@media all and (min-width: 701px) and (max-width: 1000px) {
+
+
+
+/* Header elements rules */
+#header .title {
+	margin: 0 0 0 5rem;
+}
+
+/* Footer elements rules */
+#footer nav.social {
+	float: right;
+}
+
+
+
+/******************************* Content Styles *******************************/
+
+
+
+/* Info boxes */
+.info p {
+	font-size: 1.1em;
+}
+
+/* Columnar elements and widgets */
+.columnar, .widget {
+	float: left;
+	width: 44%;
+	padding: 0 3%;
+}
+
+/* Widget bounding box */
+.widgets {
+	overflow: hidden;
+}
+
+/* Project list */
+.project-list li {
+	margin: 16px auto;
+	width: 565px;
+}
+
+
+
+/****************************** Navigation Styles *****************************/
+
+
+
+/* Main nav rules */
+nav.main ul {
+	font-size: 0;
+	text-align: center;
+}
+nav.main li {
+	display: inline-block;
+	padding: 0.3em 1.5em;
+	min-width: 5em;
+}
+
+/* Fanceh animation stuff */
+nav.main a {
+	position: relative;
+}
+nav.main a:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: -0.3em;
+	left: 0;
+	right: 0;
+	height: 0px;
+
+	background-color: #555555;
+	transition: height 150ms ease-out,
+				background-color 300ms ease;
+}
+nav.main a:hover:before {
+	height: 4px;
+	background-color: #000000;
+}
+
+
+
+/* Social nav rules */
+nav.social li {
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+nav.social .icon {
+	float: right;
+	margin: 0.22em 0 0 0.4em;
+	vertical-align: text-bottom;
+}
+
+
+
+}

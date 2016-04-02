@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Parallax Scroll Tests</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="parallax.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				// Register all parallax-enabled elements
+				parallaxBackground($("#parallax-container").get(0), 0.3);
+				parallax($("#blue").get(0), 0.1);
+				parallax($("#purple").get(0), 0.2);
+				parallax($("#red").get(0), 0.3);
+				parallax($("#green").get(0), 0.4);
+				parallax($("#yellow").get(0), 0.5);
+				$(".parallax-divider").each(function() {
+					parallaxBackground($(this).get(0), 0.3, $(this).offset().top * -0.3 + 200);
+				});
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div id="parallax-container" style="background-image: url('minecraft1.jpg');">
+			<div class="headline-text">Parallax Scrolling Test</div>
+			
+			<div id="blue" style="background-color: blue;"></div>
+			<div id="purple" style="background-color: purple;"></div>
+			<div id="red" style="background-color: red;"></div>
+			<div id="green" style="background-color: green;"></div>
+			<div id="yellow" style="background-color: yellow;"></div>
+		</div>
+		
+		<div class="parallax-divider" style="background-image: url('portal4.jpg');">
+			<div class="lyrics">
+				<p>This was a triumph<br />
+				I'm making a note here: HUGE SUCCESS<br />
+				It's hard to overstate my satisfaction<br />
+				Aperture Science<br />
+				We do what we must because we can<br />
+				For the good of all of us<br />
+				Except the ones who are dead</p>
+			</div>
+		</div>
+		
+		<div class="parallax-divider" style="background-image: url('portal3.jpg');">
+			<div class="lyrics">
+				<p>But there's no sense crying over every mistake<br />
+				You just keep on trying 'til you run out of cake<br />
+				And the science gets done<br />
+				And you make a neat gun<br />
+				For the people who are still alive</p>
+			</div>
+		</div>
+		
+		<div class="parallax-divider" style="background-image: url('portal6.jpg');">
+			<div class="lyrics">
+				<p>I'm not even angry<br />
+				I'm being so sincere right now<br />
+				Even though you broke my heart and killed me<br />
+				And tore me to pieces<br />
+				And threw every piece into a fire<br />
+				As they burned it hurt because<br />
+				I was so happy for you</p>
+			</div>
+		</div>
+		
+		<div class="parallax-divider" style="background-image: url('portal1.jpg');">
+			<div class="lyrics">
+				<p>Now these points of data make a beautiful line<br />
+				And we're out of beta, we're releasing on time<br />
+				So I'm GLaD I got burned<br />
+				Think of all the things we learned<br />
+				For the people who are still alive</p>
+			</div>
+		</div>
+		
+		<div class="parallax-divider" style="background-image: url('portal5.jpg');">
+			<div class="lyrics">
+				<p>Go ahead and leave me<br />
+				I think I prefer to stay inside<br />
+				Maybe you'll find someone else to help you<br />
+				Maybe Black Mesa<br />
+				That was a joke, ha ha, fat chance!<br />
+				Anyway this cake is great<br />
+				It's so delicious and moist</p>
+			</div>
+		</div>
+		
+		<div class="parallax-divider" style="background-image: url('portal2.jpg');">
+			<div class="lyrics">
+				<p>Look at me still talking when there's science to do<br />
+				When I look out there it makes me GLaD I'm not you<br />
+				I've experiments to run<br />
+				There is research to be done<br />
+				On the people who are still alive</p>
+			</div>
+		</div>
+		
+		<div class="lyrics">
+			<p>And believe me I am still alive<br />
+			I'm doing science and I'm still alive<br />
+			While you're dying I'll be still alive<br />
+			And when you're dead I will be still alive<br />
+			Still alive<br />
+			Still alive</p>
+		</div>
+	</body>
+</html>

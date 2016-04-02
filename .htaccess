@@ -1,0 +1,5 @@
+<Files "config.xml">
+	Require all denied
+</Files>
+ErrorDocument 404 /?p=404
+ErrorDocument 403 /?p=403

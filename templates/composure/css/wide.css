@@ -1,0 +1,122 @@
+@media all and (min-width: 1001px) {
+
+
+
+/* Header elements rules */
+#header .title {
+	float: left;
+	margin: 0 0 0 5rem;
+}
+
+/* Footer elements rules */
+#footer nav.social {
+	float: right;
+}
+
+
+
+/******************************* Content Styles *******************************/
+
+
+
+/* Info boxes */
+.info {
+	padding: 0 20px;
+}
+
+/* Columnar elements */
+.columnar, .widget {
+	float: left;
+	width: 40%;
+	padding: 0 5%;
+}
+
+/* Widget bounding box */
+.widgets {
+	overflow: hidden;
+}
+
+/* Project list */
+.project-list li {
+	float: left;
+	margin: 5%;
+	width: 40%;
+	transition: margin 300ms ease-out, width 300ms ease-out;
+}
+.project-list li:hover {
+	margin: 3.875% 3%;
+	width: 44%;
+}
+
+
+
+/****************************** Navigation Styles *****************************/
+
+
+
+/* Main nav rules */
+nav.main ul {
+	font-size: 0;
+	text-align: right;
+}
+nav.main li {
+	display: inline-block;
+	padding: 0.3em 1.5em;
+	min-width: 5em;
+}
+
+/* Fanceh animation stuff */
+nav.main a {
+	position: relative;
+}
+nav.main a:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 1.2em;
+	left: 0;
+	width: 0;
+	height: 2px;
+
+	background-color: #555555;
+	transition: width 350ms ease-out,
+				background-color 300ms ease;
+}
+nav.main a:hover:before {
+	width: 100%;
+	background-color: #000000;
+}
+
+
+
+/* Social nav rules */
+nav.social ul {
+	overflow: hidden;
+}
+nav.social li {
+	padding: 0.4em;
+	float: left;
+}
+nav.social a {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+/* Fanceh animation stuff */
+nav.social li {
+	width: 1.2em;
+
+	transition: width 350ms ease-out;
+}
+nav.social li:hover {
+	width: 6.5em;
+}
+nav.social a {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+
+
+}
