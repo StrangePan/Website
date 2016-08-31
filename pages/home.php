@@ -6,7 +6,7 @@
 		<h1>Video Games and Code</h1>
 	</header>
 	<section>
-		<p>a playground for ideas and projects</p>
+		<p>a playground for projects and ideas</p>
 	</section>
 </article>
 

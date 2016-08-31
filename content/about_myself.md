@@ -3,7 +3,7 @@
 My name is Daniel Andrus. I play video games, write code,
 write blog posts, and start fun side projects. Sometimes I even
 finish the side projects. I also work as a full-time software
-developer on the side.
+engineer on the side.
 
 I grew up in Southern California and earned my high
 school degree in 2009. In 2010, I moved from Los Angeles to a
@@ -11,13 +11,16 @@ little town called Spearfish, South Dakota. There, I attended
 college at Black Hills State University for two years while
 outside of classes I became interested in programming. In
 2012, I transferred to South Dakota School of Mines and
-Technology where I plan to graduate with a bachelor's degree
-of computer science in May, 2016.
+Technology where I graduated with a bachelor's degree in computer
+science in May, 2016.
 
-Today, I am a college senior with only one semester remaining
-until I complete my degree. I live in Rapid City, South
-Dakota and work for 7400 Circuits, a small circuit board company.
-In addition to being present on the typical social networks, I
-occasionally produce videos for a YouTube gaming channel and run
-a public video game server. More information on my current and
-past endeavors can be found on the Portfolio page of my website.
+Today, I am living back in California, in the lovely San
+Francisco Bay area where I work as a software engineer for
+YouTube. By day I work hard to make the Android YouTube app
+better for everyone. By night, I play Magic the Gathering and
+watch Rick and Morty.
+
+As I continue to develop my career, my passion for programming
+and video games has not gone away. I am in the process of designing
+and building my own PC on which I can write code and play video
+games to my heart's content.
