@@ -3,7 +3,7 @@
 <!-- Home page welcome -->
 <article class="welcome front-and-center">
 	<header>
-		<h1>Video Games and Code</h1>
+		<h1>Vido Gams and Code</h1>
 	</header>
 	<section>
 		<p>a playground for projects and ideas</p>
