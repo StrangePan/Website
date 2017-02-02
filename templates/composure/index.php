@@ -57,7 +57,7 @@ if (!defined("ENGINE")) die ();
 				
 				<!-- Copyright info -->
 				<div class="copyright">
-					&copy; 2014-2016 Daniel Andrus
+					&copy; 2014-2017 Daniel Andrus
 				</div>
 				
 			</footer>
