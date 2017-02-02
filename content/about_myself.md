@@ -16,11 +16,12 @@ science in May, 2016.
 
 Today, I am living back in California, in the lovely San
 Francisco Bay area where I work as a software engineer for
-YouTube. By day I work hard to make the Android YouTube app
+YouTube. By day, I work hard to make the Android YouTube app
 better for everyone. By night, I play Magic the Gathering and
 watch Rick and Morty.
 
-As I continue to develop my career, my passion for programming
-and video games has not gone away. I am in the process of designing
-and building my own PC on which I can write code and play video
-games to my heart's content.
+As I continue to develop my career, my passion for programming and
+video games has not diminished. I have a number of small PC game
+projects that I work on when I want to try new ideas. Some of my
+side projects can be found on the [projects](?p=projects) page of
+this site.
