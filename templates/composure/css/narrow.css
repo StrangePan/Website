@@ -9,12 +9,12 @@
 }
 
 
-
 /* Header elements rules */
 #header .title {
-	margin: 0 0 1.4rem 0;
+	margin: 0 0 1em 0;
 	text-align: center;
 }
+
 
 /* Footer elements rules */
 #footer nav.simple {
@@ -25,9 +25,7 @@
 }
 
 
-
 /******************************* Content Styles *******************************/
-
 
 
 article p {
@@ -54,6 +52,8 @@ article p {
 /* Main nav rules */
 nav.main ul {
 	overflow: hidden;
+	max-width: 28em;
+	margin: 0 auto;
 }
 nav.main li {
 	display: block;

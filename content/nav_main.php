@@ -1,8 +1,8 @@
 <nav class="main">
 	<ul>
-		<li><a href="<?php echo $relRoot; ?>" title="Home">Home</a></li>
-		<li><a href="<?php echo $relRoot; ?>?p=resume" title="Resume">Resume</a></li>
-		<li><a href="<?php echo $relRoot; ?>?p=projects" title="Projects">Projects</a></li>
-		<li><a href="https://twitter.com/deaboy100" title="Twitter">Twitter</a></li>
+		<li><a href="<?=$relRoot;?>">Home</a></li>
+		<li><a href="<?=$relRoot;?>?p=resume">Resume</a></li>
+		<li><a href="<?=$relRoot;?>?p=projects">Projects</a></li>
+		<li><a href="https://twitter.com/StrangePan" class="external">@StrangePan<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 	</ul>
 </nav>
