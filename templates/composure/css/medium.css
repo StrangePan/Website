@@ -2,14 +2,26 @@
 
 
 
-/* Header elements rules */
-#header .title {
-	margin: 0 0 0 5rem;
-}
-
 /* Footer elements rules */
 #footer nav.social {
 	float: right;
+}
+
+
+
+/******************************* Layout Styles ********************************/
+
+
+#page {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+#header .title {
+	margin-bottom: 0.2em;
+}
+.front-and-center {
+	margin-top: 5.5em;
+	margin-bottom: 5.5em;
 }
 
 
@@ -24,15 +36,23 @@
 }
 
 /* Columnar elements and widgets */
-.columnar, .widget {
+.columnar {
+	/* For browsers that don't support even and odd. */
 	float: left;
 	width: 44%;
 	padding: 0 3%;
 }
-
-/* Widget bounding box */
-.widgets {
-	overflow: hidden;
+.columnar:nth-child(odd) {
+	float: left;
+	width: 47.5%;
+	width: calc(50% - 1.5em);
+	padding: 0;
+}
+.columnar:nth-child(even) {
+	float: right;
+	width: 47.5%;
+	width: calc(50% - 1.5em);
+	padding: 0;
 }
 
 /* Project list */

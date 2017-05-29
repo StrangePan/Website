@@ -4,6 +4,8 @@
 
 /* Basic page layout rules */
 #page {
+	margin-right: 24px;
+	margin-left: 24px;
 	max-width: 100%;
 	overflow: hidden;
 }
@@ -11,16 +13,21 @@
 
 /* Header elements rules */
 #header .title {
-	margin: 0 0 1em 0;
+	margin: 0 0 0.5em 0;
 	text-align: center;
 }
 
+/* Home welcome message */
+.front-and-center {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
 
 /* Footer elements rules */
-#footer nav.simple {
-	text-align: center;
+#footer nav.social {
+	float: right;
 }
-#footer .copyright {
+#footer nav.simple {
 	text-align: center;
 }
 
@@ -30,11 +37,6 @@
 
 article p {
 	font-size: 1.6rem;
-}
-
-/* Home welcome message */
-.welcome {
-	margin: 3em auto 6em;
 }
 
 /* Project list */
@@ -52,7 +54,7 @@ article p {
 /* Main nav rules */
 nav.main ul {
 	overflow: hidden;
-	max-width: 28em;
+	max-width: 36em;
 	margin: 0 auto;
 }
 nav.main li {
@@ -60,6 +62,19 @@ nav.main li {
 	float: left;
 	margin-bottom: 0.75em;
 	width: 50%;
+}
+
+
+
+/* Social nav rules */
+nav.social li {
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+nav.social .icon {
+	float: right;
+	margin: 0.22em 0 0 0.4em;
+	vertical-align: text-bottom;
 }
 
 

@@ -55,17 +55,15 @@ a i.fa-external-link {
 	max-width: 1200px;
 }
 #header {
-	padding: 10px 0 0 0;
 	min-height: 75px;
 }
 #content {
-	padding: 20px;
 	min-height: 300px;
 }
 #footer {
-	margin: 20px auto 0 auto;
-	padding: 20px 0 50px 0;
-	width: 90%;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 50px;
 	min-height: 50px;
 }
 
@@ -198,9 +196,7 @@ article footer {
 /* Front-and-center box */
 .front-and-center {
 	display: block;
-	margin: 10em auto;
-	width: 90%;
-	max-width: 1000px;
+	margin: 10em 0;
 
 	text-align: center;
 }
