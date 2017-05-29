@@ -14,10 +14,10 @@
 
 <!-- About me information section -->
 <article class="info columnar">
-	<?php echo $Parsedown->text(file_get_contents("content/about_myself.md")) ?>
+	<?=$Parsedown->text(file_get_contents("content/about_myself.md"))?>
 </article>
 
 <!-- About the site information section -->
 <article class="info columnar">
-	<?php echo $Parsedown->text(file_get_contents("content/about_this_site.md")) ?>
+	<?=$Parsedown->text(file_get_contents("content/about_this_site.md"))?>
 </article>

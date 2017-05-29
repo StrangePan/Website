@@ -11,7 +11,7 @@
 		<p>Please accept this picture of a cat as an apology.</p>
 
 		<figure>
-			<img src="<?php echo $imgRoot; ?>construction-kitty.jpg" />
+			<img src="<?p=$imgRoot?>construction-kitty.jpg" />
 		</figure>
 	</section>
 </article>
