@@ -6,7 +6,7 @@
 			<square150x150logo src="/images/favicon-270x270.png" />
 			<square310x310logo src="/images/favicon-310x310.png" />
 			<wide310x150logo src="/images/favicon-310x150.png" />
-			<TileColor>#FAFAFA</TileColor>
+			<TileColor>#413D58</TileColor>
 		</tile>
 	</msapplication>
 </browserconfig>
