@@ -24,18 +24,16 @@ foreach (glob("projects/*/project.xml") as $projectFile)
 <!-- Home page welcome -->
 <h1>Projects</h1>
 
-<?php echo $Parsedown->text(file_get_contents("content/projects.md")) ?>
-
-<hr />
+<?=$Parsedown->text(file_get_contents("content/projects.md"))?>
 
 <ul class="project-list">
 <?php foreach ($projects as $project) { ?>
 	<li>
-		<a href="<?php echo $project['url'] ?>">
+		<a href="<?=$project['url']?>">
 <?php	if (isset($project['thumbnail'])) { ?>
-			<img class="thumbnail" src="<?php echo $project['thumbnail'] ?>" />
-<?php	} if (isset ($project['name'])) { ?>
-			<h2><?php echo $project['name']; ?></h2>
+			<img class="thumbnail" src="<?=$project['thumbnail']?>" />
+<?php	} if (isset($project['name'])) { ?>
+			<h2><?=$project['name']?></h2>
 <?php	} ?>
 		</a>
 	</li>
