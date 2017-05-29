@@ -21,6 +21,12 @@
 	padding-left: 36px;
 	padding-right: 36px;
 }
+#content {
+	padding-top: 4em;
+}
+.front-and-center {
+	margin-top: 6em;
+}
 
 
 /******************************* Content Styles *******************************/

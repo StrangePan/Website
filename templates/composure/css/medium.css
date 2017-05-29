@@ -16,11 +16,14 @@
 	padding-left: 24px;
 	padding-right: 24px;
 }
+#content {
+	padding-top: 3em;
+}
 #header .title {
 	margin-bottom: 0.2em;
 }
 .front-and-center {
-	margin-top: 5.5em;
+	margin-top: 2.5em;
 	margin-bottom: 5.5em;
 }
 
