@@ -1,3 +1,6 @@
 [submodule "projects/stacker"]
 	path = projects/stacker
 	url = https://github.com/StrangePan/StackerHTML.git
+[submodule "includes/parsedown"]
+	path = includes/parsedown
+	url = https://github.com/erusev/parsedown.git

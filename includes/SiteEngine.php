@@ -1,6 +1,6 @@
 <?php
 require_once "SimpleConfig.php";
-require_once "Parsedown.php";
+require_once "parsedown/Parsedown.php";
 
 // define("DEBUG", true);	// For debugging purposes
 
