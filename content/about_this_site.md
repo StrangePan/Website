@@ -21,6 +21,9 @@ magical machines that we call "computers."
 
 This site is updated whenever I have time or interest to
 do so. It is designed to be simple and minimalistic while
-presenting information in a clean and logical manner. Please
-regard the simplicity of this site to be an exercise in design
-and experimentation rather than a sign of laziness.
+presenting information in a clean and logical manner. The
+simplicity of this site is an exercise in clear design.
+
+This web site's source code is publicly available on
+[GitHub](https://github.com/StrangePan/Website) and is
+licensed under the MIT license.
