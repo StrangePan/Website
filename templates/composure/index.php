@@ -19,10 +19,19 @@ if (!defined("ENGINE")) die ();
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine:400,700|Open+Sans:300italic,700italic,300,700" />
 
 		<!-- Local CSS links -->
-		<link rel="stylesheet" type="text/css" href="<?php echo $templateRoot; ?>css/styles.css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo $templateRoot; ?>css/wide.css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo $templateRoot; ?>css/medium.css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo $templateRoot; ?>css/narrow.css" />
+		<link rel="stylesheet" type="text/css" href="<?=$templateRoot?>css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="<?=$templateRoot?>css/wide.css" />
+		<link rel="stylesheet" type="text/css" href="<?=$templateRoot?>css/medium.css" />
+		<link rel="stylesheet" type="text/css" href="<?=$templateRoot?>css/narrow.css" />
+
+		<!-- Icons -->
+		<link rel="icon" type="image/png" href="<?=$relRoot?>images/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="<?=$relRoot?>images/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="<?=$relRoot?>images/favicon-96x96.png" sizes="96x96" />
+		<link rel="apple-touch-icon" href="<?=$relRoot?>images/favicon-120x120.png" /> <!-- 120px -->
+		<link rel="apple-touch-icon" href="<?=$relRoot?>images/favicon-180x180.png" sizes="180x180" />
+		<link rel="apple-touch-icon" href="<?=$relRoot?>images/favicon-152x152.png" sizes="152x152" />
+		<link rel="apple-touch-icon" href="<?=$relRoot?>images/favicon-167x167.png" sizes="167x167" />
 	</head>
 	<body>
 

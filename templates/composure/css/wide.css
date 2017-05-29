@@ -6,9 +6,6 @@
 #header .title {
 	float: left;
 }
-#header nav {
-	padding-top: 0.5em;
-}
 
 /* Footer elements rules */
 #footer nav.social {

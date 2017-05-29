@@ -55,6 +55,7 @@ a i.fa-external-link {
 	max-width: 1200px;
 }
 #header {
+	padding-top: 0.5em;
 	min-height: 75px;
 }
 #content {
