@@ -44,7 +44,8 @@ p {
 	display: block;
 	margin: 0;
 	padding: 2em;
-	background-color: white;
+	background: white;
+	background: linear-gradient(#FFFFFF, #F0F0F0);
 	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
