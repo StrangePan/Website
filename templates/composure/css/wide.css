@@ -60,14 +60,23 @@
 
 /* Project list */
 .project-list li {
+	position: relative;
 	float: left;
-	margin: 5%;
-	width: 40%;
-	transition: margin 300ms ease-out, width 300ms ease-out;
+	margin: 0;
+	width: 50%;
+	padding-bottom: 28.125%;
 }
-.project-list li:hover {
-	margin: 3.875% 3%;
-	width: 44%;
+.project-list li a {
+	position: absolute;
+	display: block;
+	width: 88%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: width 300ms ease-out;
+}
+.project-list li a:hover {
+	width: 96%;
 }
 
 

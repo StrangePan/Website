@@ -59,9 +59,13 @@
 }
 
 /* Project list */
+.project-list {
+	margin-top: 2em;
+}
 .project-list li {
-	margin: 16px auto;
-	width: 565px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 565px;
 }
 
 

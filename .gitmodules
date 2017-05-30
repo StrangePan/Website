@@ -4,3 +4,6 @@
 [submodule "includes/parsedown"]
 	path = includes/parsedown
 	url = https://github.com/erusev/parsedown.git
+[submodule "projects/yt-theater"]
+	path = projects/yt-theater
+	url = git@github.com:StrangePan/YouTubeTheater.git
