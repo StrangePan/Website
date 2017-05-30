@@ -6,9 +6,7 @@
  */
 define("ENGINE", 1);
 
-// INITIALIZE SITE ENGINE
-require_once "includes/SiteEngine.php";
-$engine = new SiteEngine();
+require_once "includes/parsedown/Parsedown.php";
 
 // Site paths and such
 $relRoot = "/";
