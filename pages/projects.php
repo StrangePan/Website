@@ -21,9 +21,6 @@ foreach (glob("projects/*/project.xml") as $projectFile)
 }
 ?>
 
-<!-- Home page welcome -->
-<h1>Projects</h1>
-
 <?=$Parsedown->text(file_get_contents("content/projects.md"))?>
 
 <ul class="project-list">
