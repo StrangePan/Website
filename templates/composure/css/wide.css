@@ -69,14 +69,14 @@
 .project-list li a {
 	position: absolute;
 	display: block;
-	width: 88%;
+	width: 80%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transition: width 300ms ease-out;
 }
 .project-list li a:hover {
-	width: 96%;
+	width: 88%;
 }
 
 
