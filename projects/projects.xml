@@ -1,0 +1,14 @@
+<projects>
+	<project>
+		<name>Parallax Scrolling</name>
+		<description>A small experiment in parallax scrolling effects, written from scratch using jQuery</description>
+		<thumbnail>project-parallax-thumbnail.jpg</thumbnail>
+		<directory>parallax</directory>
+	</project>
+	<project>
+		<name>Stacker!</name>
+		<description>A simple game based on the arcade game by the same name using pure HTML5.</description>
+		<thumbnail>project-stacker-thumbnail.png</thumbnail>
+		<directory>stacker</directory>
+	</project>
+</projects>

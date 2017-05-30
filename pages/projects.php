@@ -1,23 +1,28 @@
 <?php $Parsedown = new Parsedown(); ?>
 <?php
 $projects = array();
-foreach (glob("projects/*/project.xml") as $projectFile)
+$projectsRoot = $relRoot . "projects/";
+$projectFile = "projects/projects.xml";
+if (is_file($projectFile))
 {
-	if (!is_file($projectFile)) continue;
-
-	$projectDir = "/" . dirname($projectFile);	
 	$xml = new SimpleXMLElement($projectFile, 0, true);
-
-	$project = array();
-	foreach ($xml->children() as $property)
+	foreach ($xml->children() as $projectXml)
 	{
-		$project[$property->getName()] = $property->__toString();
+		$project = array();
+		foreach($projectXml->children() as $property)
+		{
+			$project[$property->getName()] = $property->__toString();
+		}
+		if (isset($project['thumbnail']))
+		{
+			$project['thumbnail'] = $imgRoot . $project['thumbnail'];
+		}
+		if (isset($project['directory']))
+		{
+			$project['url'] = $projectsRoot . $project['directory'];
+		}
+		$projects[] = $project;
 	}
-	if (isset($project['thumbnail'])) {
-		$project['thumbnail'] = $projectDir . "/" . $project['thumbnail'];
-	}
-	$project['url'] = $projectDir;
-	$projects[] = $project;
 }
 ?>
 
