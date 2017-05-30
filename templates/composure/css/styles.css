@@ -87,20 +87,11 @@ a i.fa-external-link {
 }
 hr {
 	display: block;
-	margin: 1em auto;
-	width: 85%;
+	margin: 1em 0;
 	height: 1px;
-
 	border: none;
-	background: -webkit-linear-gradient(left,     rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Safari 5.1-6*/
-	background:    -moz-linear-gradient(right,    rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Fx 3.6-15*/
-	background:      -o-linear-gradient(right,    rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Opera 11.1-12*/
-	background:         linear-gradient(to right, rgba(85,85,85,0) 0%, rgba(85,85,85,1) 15%, rgba(85,85,85,1) 85%, rgba(85,85,85,0) 100%); /*Standard*/
+	background: #AAAAAA;
 }
-#content > hr {
-	margin: 2em auto;
-}
-
 
 
 /* Header elements rules */
