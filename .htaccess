@@ -1,5 +1,8 @@
-<Files "config.xml">
-	Require all denied
-</Files>
 ErrorDocument 404 /?p=404
 ErrorDocument 403 /?p=403
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(.*\.)?danielernestandrusthesecond\.[^.]*$ [NC]
+RewriteRule ^(.*)$ $1?cowbell&%{QUERY_STRING} [L]

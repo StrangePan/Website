@@ -52,5 +52,5 @@ switch ($page) {
 $page = $pageRoot.$page.".php";
 
 include "templates/composure/index.php";
-
+include "content/cowbell.php";
 ?>
