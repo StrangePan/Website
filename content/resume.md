@@ -8,7 +8,7 @@ for two years before transferring to South Dakota School of Mines and Technology
 where I graduated with a **Bachelors Degree of Computer Science** in May, 2016.
 I went on to compete in the **ACM-ICPC World Finals** in Phuket, Thailand and 
 afterward began my career as a software engineer at **Google Inc**. Currently I
-am located in San **Bruno, California** where I work on the Android YouTube app.
+am located in **San Bruno, California** where I work on the Android YouTube app.
 
 # Experience
 
