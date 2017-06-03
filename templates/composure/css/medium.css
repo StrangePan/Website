@@ -33,6 +33,10 @@
 
 
 
+article p {
+	text-align: justify;
+}
+
 /* Info boxes */
 .info p {
 	font-size: 1.1em;
@@ -56,6 +60,9 @@
 	width: 47.5%;
 	width: calc(50% - 1.5em);
 	padding: 0;
+}
+.columnar p {
+	text-align: left;
 }
 
 /* Project list */
