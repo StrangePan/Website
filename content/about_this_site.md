@@ -14,7 +14,7 @@ scratch, with the exception of third-party font faces,
 images, and video players. The reason I have chosen to build
 a custom website rather than use a content management
 system such as WordPress or Joomla is simple; I want
-first-hand experience working with new web technolgoies and
+first-hand experience working with new web technologies and
 building powerful applications. Technology is my passion, so
 I try to grasp every opportunity I can to learn about these
 magical machines that we call "computers."
