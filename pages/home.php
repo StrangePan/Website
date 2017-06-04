@@ -1,5 +1,4 @@
 <?php $Parsedown = new Parsedown(); ?>
-
 <!-- Home page welcome -->
 <article class="welcome front-and-center">
 	<header>

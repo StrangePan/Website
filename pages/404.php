@@ -1,3 +1,4 @@
+<?php $pageTitle = "404"; ?>
 <!-- Under construction message -->
 <article class="404 error front-and-center">
 	<header>

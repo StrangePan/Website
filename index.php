@@ -51,6 +51,10 @@ switch ($page) {
 
 $page = "pages/".$page.".php";
 
+ob_start();
+include $page;
+$pageContents = ob_get_clean();
+
 include "templates/composure/index.php";
 include "content/cowbell.php";
 ?>

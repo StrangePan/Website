@@ -12,7 +12,7 @@ if (!defined("ENGINE")) die ();
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1"/> <!--320-->
 
 		<!-- Page title -->
-		<title>Dan Andrus</title>
+		<title><?php if (isset($pageTitle)) echo $pageTitle." - "; ?>Dan Andrus</title>
 
 		<!-- Remote CSS links -->
 		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
@@ -54,7 +54,7 @@ if (!defined("ENGINE")) die ();
 			<!-- Page main content -->
 			<main id="content" role="main">
 
-				<?php include $page; ?>
+				<?=$pageContents?>
 
 			</main>
 

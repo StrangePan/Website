@@ -1,5 +1,5 @@
-<?php $Parsedown = new Parsedown(); ?>
 <?php
+$Parsedown = new Parsedown();
 $projects = array();
 $projectsRoot = $relRoot . "projects/";
 $projectFile = "projects/projects.xml";
@@ -24,6 +24,8 @@ if (is_file($projectFile))
 		$projects[] = $project;
 	}
 }
+
+$pageTitle = "Projects";
 ?>
 
 <?=$Parsedown->text(file_get_contents("content/projects.md"))?>

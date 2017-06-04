@@ -1,3 +1,4 @@
+<?php $pageTitle = "Under Construction"; ?>
 <!-- Under construction message -->
 <article class="construction error front-and-center">
 	<header>
