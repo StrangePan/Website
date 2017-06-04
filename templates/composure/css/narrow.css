@@ -4,8 +4,8 @@
 
 /* Basic page layout rules */
 #page {
-	margin-right: 24px;
-	margin-left: 24px;
+	padding-right: 24px;
+	padding-left: 24px;
 	max-width: 100%;
 	overflow: hidden;
 }

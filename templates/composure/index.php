@@ -6,7 +6,7 @@ if (!defined("ENGINE")) die ();
 	<head>
 		<!-- Meta information -->
 		<meta charset="UTF-8" />
-		<meta name="description" content="Personal web site of Daniel 'Deaboy' Ernest Andrus II" />
+		<meta name="description" content="Personal web site of Daniel 'StrangePan' Ernest Andrus II" />
 		<meta name="keywords" content="personal, sandbox, blog, code, custom, daniel, dan, deaboy, andrus" />
 		<meta name="author" content="Daniel Andrus" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1"/> <!--320-->
