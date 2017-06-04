@@ -19,4 +19,4 @@ and watch Rick and Morty.
 As I continue to develop my career, my passion for programming and video games
 has not diminished. I have a number of small PC game projects that I work on
 when I want to try new ideas. Some of my side projects can be found on the
-[projects](?p=projects) page of this site.
+[projects](/projects/) page of this site.

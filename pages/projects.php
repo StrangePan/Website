@@ -19,7 +19,7 @@ if (is_file($projectFile))
 		}
 		if (isset($project['directory']))
 		{
-			$project['url'] = $projectsRoot . $project['directory'];
+			$project['url'] = $projectsRoot . $project['directory'] . "/";
 		}
 		$projects[] = $project;
 	}

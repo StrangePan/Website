@@ -11,8 +11,8 @@ require_once "includes/parsedown/Parsedown.php";
 // Site paths and such
 $relRoot = "/";
 $absRoot = "/";
-$pageRoot = "pages/";
 $imgRoot = $relRoot."images/";
+$filesRoot = $relRoot."files/";
 $templateRoot = $relRoot."templates/composure/";
 
 // Figure out what page to display
@@ -49,7 +49,7 @@ switch ($page) {
 		break;
 }
 
-$page = $pageRoot.$page.".php";
+$page = "pages/".$page.".php";
 
 include "templates/composure/index.php";
 include "content/cowbell.php";
