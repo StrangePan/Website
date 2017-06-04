@@ -2,7 +2,8 @@
 
 My name is Daniel Andrus. I play video games, write code, and start fun side
 projects. Sometimes I even finish those side projects. I also work as a
-full-time software engineer on the side.
+full-time software engineer on the side. My Internet alias is "StrangePan"
+(previously "Deaboy"), and "vido gams and code" is my tagline.
 
 I grew up in Southern California and earned my high school degree in 2009. In
 2010, I moved from Los Angeles to a little town called Spearfish, South Dakota.
