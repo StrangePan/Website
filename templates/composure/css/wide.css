@@ -2,11 +2,6 @@
 
 
 
-/* Header elements rules */
-#header .title {
-	float: left;
-}
-
 /* Footer elements rules */
 #footer nav.social {
 	float: right;
@@ -20,6 +15,20 @@
 #page {
 	padding-left: 36px;
 	padding-right: 36px;
+}
+#header {
+	overflow: hidden;
+}
+#header:before {
+	content: " ";
+	display: block;
+	float: right;
+	transition: height 300ms ease-out;
+	height: 0em;
+}
+#header .title {
+	margin-bottom: 0.2em;
+	float: left;
 }
 #content {
 	padding-top: 4em;
@@ -85,6 +94,10 @@ article p {
 
 
 /* Main nav rules */
+nav.main {
+	float: right;
+	clear: right;
+}
 nav.main ul {
 	font-size: 0;
 	text-align: right;

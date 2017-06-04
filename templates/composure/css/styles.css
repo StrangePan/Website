@@ -53,6 +53,7 @@ a i.fa-external-link {
 #page {
 	margin: 0 auto;
 	max-width: 1200px;
+	transition: padding 300ms linear;
 }
 #header {
 	padding-top: 0.5em;
@@ -187,6 +188,7 @@ article footer {
 	display: block;
 	margin: 10em 0;
 	text-align: center;
+	transition: margin 300ms linear;
 }
 .front-and-center h1 {
 	margin: 0;

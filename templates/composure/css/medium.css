@@ -16,11 +16,22 @@
 	padding-left: 24px;
 	padding-right: 24px;
 }
-#content {
-	padding-top: 3em;
+#header {
+	overflow: hidden;
+}
+#header:before {
+	content: " ";
+	display: block;
+	float: right;
+	transition: height 300ms ease-out;
+	height: 3.1em;
 }
 #header .title {
 	margin-bottom: 0.2em;
+	float: left;
+}
+#content {
+	padding-top: 3em;
 }
 .front-and-center {
 	margin-top: 2.5em;
@@ -82,13 +93,17 @@ article p {
 
 
 /* Main nav rules */
+nav.main {
+	float: right;
+	clear: right;
+}
 nav.main ul {
 	font-size: 0;
-	text-align: center;
+	text-align: right;
 }
 nav.main li {
 	display: inline-block;
-	padding: 0.3em 1.5em;
+	padding: 0.3em 0 0.3em 3em;
 	min-width: 5em;
 }
 
