@@ -1,6 +1,6 @@
 <?php $Parsedown = new Parsedown(); ?>
 <div class="button-row">
-	<a class="download independent" href="files/resume.pdf" target="_blank" />Download PDF</a>
+	<a class="download independent" href="<?=$filesRoot?>resume.pdf" target="_blank" />Download PDF</a>
 </div>
 
 <!-- About me information section -->
@@ -12,5 +12,5 @@
 </article>
 
 <div class="button-row">
-	<a class="download independent" href="files/resume.pdf" target="_blank" />Download PDF</a>
+	<a class="download independent" href="<?=$filesRoot?>resume.pdf" target="_blank" />Download PDF</a>
 </div>
