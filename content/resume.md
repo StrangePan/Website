@@ -1,71 +1,49 @@
 # Profile
 
-I have a passion for video games and technology, and my career goal is to become
-a software engineer in the games industry, the mobile application industry, or
-the desktop application industry. I grew up in La Crescenta, California before
-moving to South Dakota in Summer, 2010. I attended Black Hills State University
-for two years before transferring to South Dakota School of Mines and Technology
-where I graduated with a **Bachelors Degree of Computer Science** in May, 2016.
-I went on to compete in the **ACM-ICPC World Finals** in Phuket, Thailand and 
-afterward began my career as a software engineer at **Google Inc**. Currently I
-am located in **San Bruno, California** where I work on the Android YouTube app.
+Talented and educated software engineer with a strong desire to build products that delight and
+empower users. Places high value in clear and thoughtful interface and software design. Takes
+pride in high-quality products and strives for excellence.
 
-# Experience
+# <i class="fa fa-suitcase" aria-hidden="true"></i> Career
 
-## Software Engineer, Google Inc — June 2016 - Present
+## YouTube <span class="subtitle">2016-present</span>
 
-I began my career as a **Software Engineer at Google Inc**. I specifically
-worked on the **YouTube app** on Android and worked closely with **Android OS**.
-My roles included working closely and collaboratively with the other team
-members to meet goals and create maintainable software systems.
+Software Engineer working on the YouTube app for Android. Improved performance, stability,
+maintainability, and the user experience. Gained experience in teamwork, operating at scale, rapid
+release schedules, automated testing, and Android development.
 
-## Intern Developer, 7400 Circuits — May 2015 - December 2015
+## 7400 Circuits <span class="subtitle">2015</span>
 
-I held an internship at 7400 Circuits, a circuit board company located in Rapid City. Here I worked to improve an existing an **iOS and Android game** called Trouble with Robots. I also worked on a **cross-platform desktop application** that interacted via USB with a handheld game cartridge reader and writer that allows users to create and play Neo Geo Pocket and WonderSwan games on their handheld game devices.
+Designed and developed a cross-platform desktop application for users to transfer data onto and
+pull data from a modified game cartridge. Maintained an Android and iOS game, adding support
+for Chinese, Japanese, and Korean character sets. Gained experience in project management,
+interface design and programming, communication protocols, automated tooling, and QT. 
 
-## SDSM&amp;T Programming Team — 2014 - June 2016
+## BlackHills.com <span class="subtitle">2013-2015</span>
 
-In fall 2014, I joined the SDSMT programming team and participated in the ACM regional Programming Competition where my team finished 14th in the region out of over 285 competing teams and 1st in the school. In fall 2016, my team qualified for the **ACM-ICPC World Finals** and travelled to Phuket, Thailand in May 2016 to participate.
+Designed and built numerous web sites for a variety of small businesses. Using modern design and
+web techniques to build sites that met unique requirements and were accessible. Gained
+experience in server-side scripting and stylesheets following industry best practices. 
 
-## Server administrator, programmer — 2010 - 2015
+# <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
 
-Since 2010, I have owned and operated a public game server for which I and
-another developer have written hundreds of lines of **server software** to help
-manage the community. Through this, I have become greatly acquainted with **Linux**,
-**SSH**, and **managing small communities**.
+## B.S. of Computer Science <span class="subtitle">2012-2016</span>
 
-## Web Designer and DEVELOPER, BlackHills.com — 2013 - 2015
+Attended the South Dakota School of Mines and Technology. Was involved in numerous groups,
+including the programming team, the local ACM chapter, and the game development club.
 
-In May 2013, I started working for a local web development company as a
-full-time web developer. The job entailed **designing and building websites** of
-diverse sizes and varieties. Many sites were for small businesses located
-throughout the Black Hills, but a few were for large, high-traffic businesses
-such as BlackHillsNews.com and Sturgis.com.
+## SDSM&amp;T Programming Team <span class="subtitle">2014-2016</span>
 
-# Skills
+Competed in the 2017 ACM-ICPC World Finals in Phuket, Thailand, representing the school,
+state, and country among other accomplished schools from around the world.
 
-- Programming in the **Java**, **C**, **C++**, **C#**, **PHP**, **Lua**, **Python**, **Objective-C**, and **Swift** programming languages.
-- **OS X**, **iOS**, **Android**, and **web** development.
-- Working with web technologies, including **HTML5**, **CSS**, **JavaScript**, and **PHP**.
-- **Designing database systems** using **MySql**.
-- Working on **team projects**, **object-oriented program design**, and source control systems such as **Git** and **Subversion**
+# <i class="fa fa-desktop" aria-hidden="true"></i> Skills
 
-# Education
+android | qt | love2d | git | android&nbsp;studio | web | visual&nbsp;studio | intellij | bash
+| java | c++ | lua | python | html | css | php | oop | s.o.l.i.d.
 
-- **General Studies** — Black Hills State University, Spearfish, SD — 2010-2012
-- **B.S. of Computer Science** — South Dakota School of Mines and Technology, Rapid City, SD — 2012-2016
 
-# Personal Information
+# <i class="fa fa-gamepad" aria-hidden="true"></i> Hobbies
 
-I am good at math, am a fast learner, can pick up on new programming languages
-and standards quickly, and am a stickler for the proper usage of the word
-"literally". I can easily adapt to design patterns as well as programming
-paradigms and am perpetually learning the technologies and techniques employed
-in the software development, UX design, and games industries.
-
-In my spare time, I enjoy playing and creating video games, creating YouTube
-videos, and learning more about the ever-changing technology industry. I love
-spending time with friends who enjoy similar things as I do. My career goals are
-to go into mobile application design and development, desktop application design
-and development, or game design and development. My ultimate personal goal with
-technology is to create applications that make people’s lives better.
+game&nbsp;development | web&nbsp;development | video&nbsp;gaming | magic&nbsp;the&nbsp;gathering
+| visual&nbsp;design | tinkering | outdoor&nbsp;adventures
