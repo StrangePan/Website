@@ -39,7 +39,7 @@
 /******************************* Content Styles *******************************/
 
 
-article p {
+article {
 	font-size: 1.6rem;
 }
 
@@ -51,6 +51,12 @@ article p {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 565px;
+}
+
+.document h1 {
+	padding-bottom: 0em;
+	border-bottom: none;
+	margin-bottom: 0.5em;
 }
 
 
