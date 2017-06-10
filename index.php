@@ -8,6 +8,9 @@ define("ENGINE", 1);
 
 require_once "includes/parsedown/Parsedown.php";
 
+// Set some config values.
+$isDevMode = substr($_SERVER['SERVER_NAME'], -4) == ".dev";
+
 // Site paths and such
 $relRoot = "/";
 $absRoot = "/";
