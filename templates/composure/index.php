@@ -68,7 +68,9 @@ if (!defined("ENGINE")) die ();
 				<div class="copyright">
 					&copy; 2014-2017 Daniel Andrus
 				</div>
-				
+				<div class="copyright">
+					<a href="http://fontawesome.io/">Font Awesome</a> by Dave Gandy
+				</div>
 			</footer>
 		</div>
 	</body>

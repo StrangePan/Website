@@ -30,6 +30,7 @@
 /* Footer elements rules */
 #footer nav.social {
 	float: right;
+	margin-left: 1em;
 }
 #footer nav.simple {
 	text-align: center;
@@ -38,10 +39,6 @@
 
 /******************************* Content Styles *******************************/
 
-
-article {
-	font-size: 1.6rem;
-}
 
 /* Project list */
 .project-list {

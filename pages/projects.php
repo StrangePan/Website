@@ -28,7 +28,9 @@ if (is_file($projectFile))
 $pageTitle = "Projects";
 ?>
 
-<?=$Parsedown->text(file_get_contents("content/projects.md"))?>
+<article class="front-and-center">
+	<?=$Parsedown->text(file_get_contents("content/projects.md"))?>
+</article>
 
 <ul class="project-list">
 <?php foreach ($projects as $project) { ?>

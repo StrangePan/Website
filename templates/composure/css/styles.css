@@ -83,6 +83,9 @@ a i.fa-external-link {
 	font-size: 1.4rem;
 	border-top: 1px solid #AAAAAA;
 }
+#footer .copyright {
+	margin-bottom: 1em;
+}
 hr {
 	display: block;
 	margin: 1em 0;
@@ -128,6 +131,19 @@ hr {
 article {
 	font-size: 1.4rem;
 }
+article p, article p a, article p a:visited {
+	color: #000000;
+}
+article p {
+	line-height: 1.5em;
+}
+article h1 {
+	margin-top: 3em;
+}
+article h2 {
+	font-size: 1em;
+	margin-top: 3em;
+}
 article figure {
 	display: block;
 	margin: 1em 0;
@@ -167,7 +183,6 @@ article footer {
 }
 .document .subtitle {
 	text-transform: uppercase;
-	font-size: 0.85em;
 	font-weight: normal;
 	padding-left: 0.5em;
 }
@@ -195,28 +210,29 @@ article footer {
 /* Front-and-center box */
 .front-and-center {
 	display: block;
-	margin: 10em 0;
+	margin: 10em auto;
+	max-width: 50em;
 	text-align: center;
 	transition: margin 300ms linear;
 }
 .front-and-center h1 {
 	margin: 0;
-
-	font-size: 6em;
+	font-size: 4em;
 	font-weight: 700;
 	text-align: center;
 }
 .front-and-center p {
 	text-align: center;
+	font-size: 1.4em;
 }
 
 /* Home welcome message */
-.welcome header {
+.welcome h1 {
 	font-family: "Tangerine", cursive;
+	font-size: 6em;
+	font-weight: 700;
 }
-.welcome p {
-	font-size: 1.4em;
-}
+
 /* Fanceh animation stuff */
 .welcome header,
 .welcome section {
