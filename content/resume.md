@@ -15,9 +15,10 @@ release schedules, automated testing, and Android development.
 ## 7400 Circuits <span class="subtitle">2015</span>
 
 Designed and developed a cross-platform desktop application for users to transfer data onto and
-pull data from a modified game cartridge. Maintained an Android and iOS game, adding support
-for Chinese, Japanese, and Korean character sets. Gained experience in project management,
-interface design and programming, communication protocols, automated tooling, and QT. 
+pull data from a modified game cartridge. Maintained the Android and iOS game *Trouble with
+Robots*, adding support for Chinese, Japanese, and Korean character sets. Gained experience in
+project management, interface design and programming, communication protocols, automated tooling,
+and QT.
 
 ## BlackHills.com <span class="subtitle">2013-2015</span>
 
@@ -37,13 +38,11 @@ including the programming team, the local ACM chapter, and the game development 
 Competed in the 2017 ACM-ICPC World Finals in Phuket, Thailand, representing the school,
 state, and country among other accomplished schools from around the world.
 
-# <i class="fa fa-desktop" aria-hidden="true"></i> Skills
+# <i class="fa fa-gamepad" aria-hidden="true"></i> Skills &amp; Hobbies
 
 android | qt | love2d | git | android&nbsp;studio | web | visual&nbsp;studio | intellij | bash
 | java | c++ | lua | python | html | css | php
 
-
-# <i class="fa fa-gamepad" aria-hidden="true"></i> Hobbies
 
 game&nbsp;development | web&nbsp;development | video&nbsp;gaming | magic&nbsp;the&nbsp;gathering
 | visual&nbsp;design | tinkering | outdoor&nbsp;adventures
