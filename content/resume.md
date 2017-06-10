@@ -40,7 +40,7 @@ state, and country among other accomplished schools from around the world.
 # <i class="fa fa-desktop" aria-hidden="true"></i> Skills
 
 android | qt | love2d | git | android&nbsp;studio | web | visual&nbsp;studio | intellij | bash
-| java | c++ | lua | python | html | css | php | oop | s.o.l.i.d.
+| java | c++ | lua | python | html | css | php
 
 
 # <i class="fa fa-gamepad" aria-hidden="true"></i> Hobbies
