@@ -15,6 +15,6 @@
 		<name>YouTube Theater</name>
 		<description>An easy way to watch YouTube videos without distraction.</description>
 		<thumbnail>project-yttheater-thumbnail.jpg</thumbnail>
-		<directory>yt-theater</directory>
+		<directory>web-theater</directory>
 	</project>
 </projects>
