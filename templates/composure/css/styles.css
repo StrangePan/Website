@@ -135,7 +135,12 @@ article p, article p a, article p a:visited {
 	color: #000000;
 }
 article p {
-	line-height: 1.5em;
+    font-size: 1.6rem;
+	line-height: 1.6em;
+}
+
+article h1, article h2, article h3 {
+  clear: both;
 }
 article h1 {
 	margin-top: 3em;
@@ -144,6 +149,7 @@ article h2 {
 	font-size: 1em;
 	margin-top: 3em;
 }
+
 article figure {
 	display: block;
 	margin: 1em 0;
@@ -156,13 +162,32 @@ article figure.right {
 	float: right;
 	margin: 0.5em 0 0.5em 0.5em;
 }
+
 article img {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
-
-	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.5);
 }
+article img.right, article img.left {
+    display: block;
+    max-width: 35%;
+    margin: 1em;
+}
+article img.right {
+    float: right;
+    margin-right: 0em;
+}
+article img.left {
+    float: left;
+    margin-left: 0em;
+}
+article img.top {
+    margin-top: 0em;
+}
+article img.bottom {
+    margin-bottom: 0em;
+}
+
 article footer {
 	margin-top: 2em;
 	text-align: right;
