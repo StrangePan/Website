@@ -1,5 +1,7 @@
 # Profile
 
+<img src="/images/profile.jpg" class="top right" />
+
 Talented and educated software engineer with a strong desire to build products that delight and
 empower users. Places high value in clear and thoughtful interface and software design. Takes
 pride in high-quality products and strives for excellence.
