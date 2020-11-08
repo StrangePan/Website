@@ -12,14 +12,14 @@ DirectorySlash Off
 RewriteEngine On
 RewriteOptions AllowNoSlash
 
-RewriteCond %{HTTP_HOST} danandrus\.me$ [NC]
-RewriteCond %{HTTPS} ^off$
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R,QSA,L]
+# RewriteCond %{HTTP_HOST} danandrus\.me$ [NC]
+# RewriteCond %{HTTPS} ^off$
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R,QSA,L]
 
-RewriteCond %{HTTP_HOST} !^$
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteCond %{HTTPS}s ^on(s)|
-RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R,QSA,L]
+# RewriteCond %{HTTP_HOST} !^$
+# RewriteCond %{HTTP_HOST} !^www\. [NC]
+# RewriteCond %{HTTPS}s ^on(s)|
+# RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R,QSA,L]
 
 RewriteRule ^(projects|resume)$ /$1/ [R,QSA,L]
 RewriteRule ^(projects|resume)/$ /index.php?${QUERY_STRING}&p=$1
