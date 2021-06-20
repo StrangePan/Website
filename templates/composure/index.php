@@ -71,7 +71,7 @@ if (!defined("ENGINE")) die ();
 				
 				<!-- Copyright info -->
 				<div class="copyright">
-					&copy; 2014-2017 Daniel Andrus
+					&copy; 2014-2021 Daniel Andrus
 				</div>
 				<div class="copyright">
 					<a href="http://fontawesome.io/">Font Awesome</a> by Dave Gandy
