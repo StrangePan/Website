@@ -15,7 +15,7 @@ if (!defined("ENGINE")) die ();
 		<title><?php if (isset($pageTitle)) echo $pageTitle." - "; ?>Dan Andrus</title>
 
 		<!-- Remote CSS links -->
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+		<script src="https://kit.fontawesome.com/9ff4824d1e.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine:400,700|Open+Sans:300italic,700italic,300,700" />
 
 		<!-- Local CSS links -->

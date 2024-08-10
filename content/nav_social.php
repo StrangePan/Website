@@ -1,5 +1,6 @@
 <nav class="social">
 	<ul>
+                <li><a href="https://cyberplace.social/@StrangePan" title="Mastodon" rel="me"><span class="fa fa-brands fa-mastodon icon"></span>Mastodon</a></li>
 		<li><a href="https://www.twitter.com/StrangePan" title="Twitter"><span class="fa fa-twitter icon"></span>Twitter</a></li>
 		<li><a href="https://www.facebook.com/Deaboy100" title="Facebook"><span class="fa fa-facebook icon"></span>Facebook</a></li>
 		<li><a href="https://www.github.com/StrangePan" title="Github"><span class="fa fa-github icon"></span>GitHub</a></li>
