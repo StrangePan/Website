@@ -2,6 +2,8 @@
 Order allow,deny
 Deny from all
 </FilesMatch>
+RedirectMatch 404 /\.git
+RedirectMatch 404 /notes.md
 
 ErrorDocument 404 /index.php?p=404
 ErrorDocument 403 /index.php?p=404
@@ -28,3 +30,4 @@ RewriteRule ^$ /index.php?${QUERY_STRING}&p=home
 RewriteCond %{HTTP_HOST} ^(.*\.)?danielernestandrusthesecond\.[^.]*$ [NC]
 RewriteCond %{QUERY_STRING} !cowbell
 RewriteRule ^(.*)$ /$1?cowbell [QSA]
+
