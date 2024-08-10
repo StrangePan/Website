@@ -1,1 +1,3 @@
 .well-known/pki-validation/*
+.DS_Store
+.idea
